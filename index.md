@@ -3,7 +3,7 @@
 Here is another file created for testing: [Trying](https://alicefeather.github.io/cse15l-lab-reports/tryHTML.html)
 ##Example Display
 > Here is a image of a **cloud**:
-![Cloud](https://images.app.goo.gl/RMaXAFGLU19N4hpY7)
+![cloud](https://user-images.githubusercontent.com/103291674/162546960-4fc3c00d-1176-4de9-92c6-2ebed03a85eb.jpg)
 
 The sky is made of the colors:
 1. Blue
