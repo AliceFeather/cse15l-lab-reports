@@ -21,3 +21,8 @@ Hello, this is a
 code block
 ```
 Changes are being made to the file.
+
+[Lab Report 1](lab-report-1-week-2.html)
+
+
+
