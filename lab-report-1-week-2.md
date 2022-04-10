@@ -74,3 +74,21 @@ https://sdacs.ucsd.edu/~icc/index.php
 - No password is needed to `ssh` or `scp` from client to server
 
 ## Step 6: Optimizing Remote Running
+
+*To speed up the process of copying the file to remote server and running the file, some method or shortcut can be used*
+
+![step6](step6.png)
+(Examples shown in the above picture)<br/>
+<br/>
+
+1. Use semicolon to separate commands on the same line and run multiple commands at the same time<br/>
+2. Put command in quotes (" ") after the `ssh` command can speed up the process
+    - It login to the remote server, run the command, and logout
+    - The command is run directly on the server
+    - For example, in the above picture, `ls` is run and output is shown
+    - *Notice the server is still client after running*
+3. Use up-arrow on keyboard can use the previous commands that were run
+4. Copying and pasting username also speed up the process
+
+**The above methods can be used in combination to speed up the process of editing the file locally, copying the file to the remote server, and running the file.**
+(Could be used to speed up other processes as well)
