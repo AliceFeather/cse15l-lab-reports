@@ -28,9 +28,26 @@ https://sdacs.ucsd.edu/~icc/index.php
 ## Step 3: Trying Some Commands
 - Try running some commands, like `cd`, `cd ~`, `ls -lat`, `ls -a`, `pwd`, `mkdir`, `cp`<br/><br/>
 ![step3](step3.png)
-- For example, I try the command `cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/`, and the output of permission denied is displayed
+- For example, as shown above, the command `cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/`, and the output of permission denied is displayed
+<br/>
+<br/>![step32](step32.png)
+- The command `cd` will display no change, it stay at the current directory<br/>
+<br/>
+- The command `ls -a` display all the current files and directories.
+- files with names containing "." in the prefix are also shown
 
 ## Step 4: Moving Files with **scp**
+![step41](step4.png)
+- As shown above, the java file WhereAmI.java is created
+- `javac` and `java` are run to make sure the file is compiled currently and showing the output
+- then the command `scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/` (with my username) is runned to copy the file to the remote computer from the directory of this WhereAmI.java file <br/>
+<br/>
+
+![step42](step42.png)
+- Log in to the **ieng6** server and use `ls`, the file **WhereAmI.java** should be shown in home directory <br/>
+<br/>
+- If the file is compiled using `javac` and `java` commad, the output should also be shown (different output since in different directory, under different username and operating system)
+- The above picture show that the file is successfully copied to the remote computer
 
 ## Step 5: Setting an SSH Key
 
