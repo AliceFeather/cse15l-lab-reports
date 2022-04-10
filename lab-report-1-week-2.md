@@ -51,4 +51,26 @@ https://sdacs.ucsd.edu/~icc/index.php
 
 ## Step 5: Setting an SSH Key
 
+- Generate SSH keys so no password is needed when logging in ieng server
+
+![step51](step51.png)
+**On the client server or own server**
+- Enter the command `ssh-keygen` 
+- Enter the file `(/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa`
+- Do not create passphrase for the key (*just press enter*)
+- The above output would be shown <br/>
+<br/>
+
+**On the remote ieng server**
+- Log in to the server using SSH
+- Type the command `mkdir .ssh`
+- Logout using `exit`
+
+**Back on client computer** <br/>
+<br/>
+![step52](step52.png)
+- Try login in through SSH again
+- Password is no longer needed
+- No password is needed to `ssh` or `scp` from client to server
+
 ## Step 6: Optimizing Remote Running
