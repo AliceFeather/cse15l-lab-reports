@@ -55,7 +55,7 @@ https://sdacs.ucsd.edu/~icc/index.php
 ![step42](step42.png)
 - Log in to the **ieng6** server and use `ls`, the file **WhereAmI.java** is shown in home directory <br/>
 <br/>
-- The file is compiled using `javac` and `java` command and showing the output (displaying *Linux* and my username because the current directory, server, username and operating system are different when is in remote server)
+- The file is compiled using `javac` and `java` commands and showing the output (displaying *Linux* and my username because the current directory, server, username and operating system are different when is in remote server)
 - The above picture show that the file is successfully copied to the remote computer
 <br/>
 <br/>
