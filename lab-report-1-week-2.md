@@ -3,9 +3,9 @@ How to login to course-specific account on **ieng6**  and run commands?
 
 ---
 
-## Step 1: Installing VScode
+## Step 1: Installing VSCode
 ![Step1:](step1.png)
-- Go to https://code.visualstudio.com/ website to download VScode
+- Go to [VSCode](https://code.visualstudio.com/) website to download VSCode
 - Install the version that match with the computer operating system (for me is Windows)
 
 ![Step1/2](part2.png)
