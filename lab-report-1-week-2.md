@@ -9,7 +9,7 @@ How to login to course-specific account on **ieng6**  and run commands?
 - Install the version that match with the computer operating system (for me is Windows)
 
 ![Step1/2](part2.png)
-- When the VScode is successfully installed, the opening page would be like the page shown above
+- When the VSCode is successfully installed, the opening page would be like the page shown above
 <br/>
 <br/>
 
