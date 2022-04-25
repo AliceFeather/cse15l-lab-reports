@@ -1,5 +1,18 @@
 # Introduction
 *Hi!* My name is **Alice**, this is my index file.
+
+<br/>
+
+**Here are the links to all my lab reports**:
+
+[Lab Report 1](https://alicefeather.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
+[Lab Report 2](https://alicefeather.github.io/cse15l-lab-reports/lab-report-1-week-4.html)
+
+<br/>
+
+**Below are for Lab 2**
+
 Here is another file created for testing: [Trying](https://alicefeather.github.io/cse15l-lab-reports/tryHTML.html)
 ##Example Display
 > Here is a image of a **cloud**:
@@ -22,6 +35,5 @@ code block
 ```
 Changes are being made to the file.
 
-[Lab Report 1](lab-report-1-week-2.html)
 
 
