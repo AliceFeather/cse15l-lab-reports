@@ -19,7 +19,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
         at MarkdownParse.main(MarkdownParse.java:32)
 ```
 <br/>
-The bug of "Out of Memory Error" show the symptoms of lagging and the output of *Java heap space*. The input of having one extra empty line in the file after the links cause the while loop to go on forever. Because the `indexOf()` function will keep looking for open brackets and close brackets. If it don't find it, then the function returns -1, which will cause the loop to keep going on without breaking. It keep looping until it find one.
+The bug of "Out of Memory Error" show the symptoms of lagging and the output of *Java heap space*. The input of having one extra empty line in the file after the links cause the while loop to go on forever. Because the `indexOf()` function will keep looking for open brackets and close brackets. If it doesn't find it, the function will returns -1, which will cause the loop to keep going on without breaking. It will keep looping until it find one.
 
 <br/>
 
