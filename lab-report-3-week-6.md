@@ -5,6 +5,7 @@
 ## Streamlining ssh Configuration:
 ---
 1. **ssh/config file**
+
 ![ssh/config](labstep1.1.PNG)
 ![config file](labstep1.PNG)
 <br/>
