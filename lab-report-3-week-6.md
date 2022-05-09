@@ -32,6 +32,7 @@
 
 ![public key](labstep2.PNG)
 - The public key, which end in .pub, are stored in the local computer
+
 ![github](labstep2.2.PNG)
 - The public key is also stored in Github, which is named **Personal Laptop Final**
 - The other public key is the key for ieng6 machines
@@ -69,7 +70,7 @@ while logging in to ieng6 account
 - The command `scp -r . cs15lsp22ajx@ieng6.ucsd.edu:~/markdown-parse` was runned
 - And the whole markdown-parse directory was copied to ieng6 account
 
-</br>
+<br\>
 
 2\. **Logging in to ieng6 to check and run tests**
 
@@ -77,6 +78,7 @@ while logging in to ieng6 account
 - After logging in ieng6, using the command `ls markdown-parse` to check if markdown-parse directory is successfully copied to the account server.
 - The files in the directory are copied over as well
 </br>
+
 ![test](labstep3.22.PNG)
 - The above picture show the compiling and running of the tests in MarkdownParseTest.java and the outputs
 
