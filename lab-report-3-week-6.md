@@ -70,19 +70,19 @@ while logging in to ieng6 account
 - The command `scp -r . cs15lsp22ajx@ieng6.ucsd.edu:~/markdown-parse` was runned
 - And the whole markdown-parse directory was copied to ieng6 account
 
-
+<br/>
 
 2\. **Logging in to ieng6 to check and run tests**
 
 ![check](labstep3.PNG)
 - After logging in ieng6, using the command `ls markdown-parse` to check if markdown-parse directory is successfully copied to the account server.
 - The files in the directory are copied over as well
-</br>
+<br/>
 
 ![test](labstep3.22.PNG)
 - The above picture show the compiling and running of the tests in MarkdownParseTest.java and the outputs
 
-</br>
+<br/>
 
 3\. **Combining commands to run at once**
 
