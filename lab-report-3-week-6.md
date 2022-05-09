@@ -4,7 +4,7 @@
 
 ## Streamlining ssh Configuration:
 ---
-1. **ssh/config file**
+1\. **ssh/config file**
 
 ![ssh/config](labstep1.1.PNG)
 ![config file](labstep1.PNG)
@@ -14,13 +14,13 @@
 <br/>
 
 
-2. **Login using alias**
+2\. **Login using alias**
 
 ![ssh in](labstep1.2.PNG)
 - I login the to my ieng6 account just using the alias that I chose, which is *ieng6Linux*. And I can login without inputting password.
 <br/>
 
-3. **Copy file to my account**
+3\. **Copy file to my account**
 ![scp](labstep1.4.PNG)
 - Copied the file **LabReportDemo.java** to the ieng6 account server using `scp` with the alias
 
@@ -28,7 +28,7 @@
 
 ## Setup Github Access from ieng6
 ---
-1. **Public Key**
+1\. **Public Key**
 
 ![public key](labstep2.PNG)
 - The public key, which end in .pub, are stored in the local computer
@@ -38,7 +38,7 @@
 
 <br/>
 
-2. **Private Key**
+2\. **Private Key**
 
 ![private key](labstep2.1.PNG)
 - The private key does not end with .pub. And they are stored in local computer in ssh folder as shown above
@@ -48,7 +48,7 @@
 
 <br/>
 
-3. **Git commit and push**
+3\. **Git commit and push**
 
 ![private key](labstep2.4.PNG)
 - Commit and push was done through git commands
@@ -62,7 +62,7 @@ while logging in to ieng6 account
 ## Copy whole directories with `scp -r`
 ---
 
-1. **Copying whole directory**
+1\. **Copying whole directory**
 
 ![copy](labstep3.1.PNG)
 ![copy1](labstep3.11.PNG)
@@ -71,7 +71,7 @@ while logging in to ieng6 account
 
 </br>
 
-2. **Logging in to ieng6 to check and run tests**
+2\. **Logging in to ieng6 to check and run tests**
 
 ![check](labstep3.PNG)
 - After logging in ieng6, using the command `ls markdown-parse` to check if markdown-parse directory is successfully copied to the account server.
@@ -82,7 +82,7 @@ while logging in to ieng6 account
 
 </br>
 
-3. **Combining commands to run at once**
+3\. **Combining commands to run at once**
 
 ![commands](labstep3.3.PNG)
 ![output](labstep3.31.PNG)
