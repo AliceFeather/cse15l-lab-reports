@@ -70,7 +70,7 @@ while logging in to ieng6 account
 - The command `scp -r . cs15lsp22ajx@ieng6.ucsd.edu:~/markdown-parse` was runned
 - And the whole markdown-parse directory was copied to ieng6 account
 
-<br\>
+
 
 2\. **Logging in to ieng6 to check and run tests**
 
