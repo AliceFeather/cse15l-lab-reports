@@ -15,6 +15,7 @@
 
 
 2. **Login using alias**
+
 ![ssh in](labstep1.2.PNG)
 - I login the to my ieng6 account just using the alias that I chose, which is *ieng6Linux*. And I can login without inputting password.
 <br/>
@@ -28,6 +29,7 @@
 ## Setup Github Access from ieng6
 ---
 1. **Public Key**
+
 ![public key](labstep2.PNG)
 - The public key, which end in .pub, are stored in the local computer
 ![github](labstep2.2.PNG)
@@ -37,14 +39,17 @@
 <br/>
 
 2. **Private Key**
+
 ![private key](labstep2.1.PNG)
 - The private key does not end with .pub. And they are stored in local computer in ssh folder as shown above
+
 ![private key1](labstep2.3.PNG)
 - The private key for ieng6 machine is stored in .ssh for ieng6 acount as shown above
 
 <br/>
 
 3. **Git commit and push**
+
 ![private key](labstep2.4.PNG)
 - Commit and push was done through git commands
 while logging in to ieng6 account
@@ -58,6 +63,7 @@ while logging in to ieng6 account
 ---
 
 1. **Copying whole directory**
+
 ![copy](labstep3.1.PNG)
 ![copy1](labstep3.11.PNG)
 - The command `scp -r . cs15lsp22ajx@ieng6.ucsd.edu:~/markdown-parse` was runned
@@ -66,6 +72,7 @@ while logging in to ieng6 account
 </br>
 
 2. **Logging in to ieng6 to check and run tests**
+
 ![check](labstep3.PNG)
 - After logging in ieng6, using the command `ls markdown-parse` to check if markdown-parse directory is successfully copied to the account server.
 - The files in the directory are copied over as well
@@ -76,6 +83,7 @@ while logging in to ieng6 account
 </br>
 
 3. **Combining commands to run at once**
+
 ![commands](labstep3.3.PNG)
 ![output](labstep3.31.PNG)
 - As you can see in the above pictures, the command: `scp -r . cs15lsp22ajx@ieng6.ucsd.edu:~/markdown-parse; ssh ieng6Linux "cd markdown-parse; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"` is runned
