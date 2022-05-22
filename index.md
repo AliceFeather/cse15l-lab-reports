@@ -11,6 +11,8 @@
 
 [Lab Report 3](https://alicefeather.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 
+[Lab Report 4](https://alicefeather.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+
 <br/>
 
 **Below are for Lab 2**

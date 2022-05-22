@@ -5,6 +5,12 @@
 ## Links to Repositories
 ---
 
+**My Repository**
+https://github.com/AliceFeather/markdown-parser
+
+**Repository Reviewed in Week 7**
+https://github.com/Sking56/markdown-parser 
+
 ## Expected Outcomes for Three Snippets
 ---
 1. **Snippet 1**
