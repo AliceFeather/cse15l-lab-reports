@@ -14,7 +14,7 @@ Adding a print statement that print out the test file name in the bash file can 
 
 ## First Test
 ---
-**Link for test-file 201**: https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md
+[**Link for test-file 201**](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md)
 
 - Our group's implementation is correct. The provided implementation is incorrect.
 
@@ -37,7 +37,7 @@ could fix the error. Like if the character is a semicolon, it won't add "baz" as
 
 ## Second Test
 ---
-**Link for test-file 496**: https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/496.md
+[**Link for test-file 496**](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/496.md)
 
 - The provided implementation is correct. Our group's implementation is incorrect
 
